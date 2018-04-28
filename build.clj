@@ -6,6 +6,6 @@
    :output-to "target/main.js"
    :output-dir "target/main.out"
    :asset-path "main.out"
-   ;:optimizations :simple
+   :optimizations :advanced
    :foreign-libs [{:file "src"
                    :module-type :es6}]})
