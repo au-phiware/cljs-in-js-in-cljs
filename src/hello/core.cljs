@@ -1,4 +1,4 @@
-(ns hello.core (:require [hello.es-module :refer [greet]]
-                         [hello.say]))
+(ns hello.core (:require [unique-random]
+                         [hello :refer [greet]]))
 
 (greet "test")
